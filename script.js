@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('#days').animate({
         Counter: date
     }, {
-        duration: 1500,
+        duration: 1200,
         step: function(now) {
             var step = Math.ceil(now);
             var stepLength = step.toString().length;
